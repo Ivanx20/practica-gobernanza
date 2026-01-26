@@ -1,0 +1,5 @@
+# CODEOWNERS - Propietarios del código
+* @Ivanx20 @Ceadxnet
+# Propietarios por directorio
+/src/ @Ivanx20
+/docs/ @Ceadxnet
