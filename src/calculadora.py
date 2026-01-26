@@ -58,7 +58,10 @@ def potencia(base: float, exponente: float) -> float:
     EJERCICIO: Esta función será modificada por ambos
     miembros de la pareja para practicar conflictos.
     """
-    return base ** exponente
+
+    if base <= 0:
+        raise ValueError("Base debe ser positiva para usar logaritmos")
+    return math.exp(exponente * math.log(base))
 
 
 def raiz_cuadrada(numero: float) -> float:
