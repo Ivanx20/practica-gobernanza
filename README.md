@@ -95,3 +95,6 @@ practica-governanza/
 ---
 
 *Repositorio creado para fines educativos - MDW101 Semana 3*
+Demo GitFlow - feature branch
+## Release 1.0.0
+Primera versión estable del proyecto.
